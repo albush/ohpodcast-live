@@ -1,0 +1,69 @@
+/* Custom Stylesheet */
+
+a {
+  color: #c42126;
+}
+
+nav {
+  background-color: #c42126;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #FFF;
+  padding-left: 20px;
+}
+p {
+  line-height: 2rem;
+}
+
+.btn-large {
+  background-color: #c42126;
+}
+
+.button-collapse {
+  color: #FFF;
+}
+
+.parallax-container {
+  min-height: 275px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media screen, projection {
+  audio, canvas, progress, video {
+      display: inline-block;
+      vertical-align: baseline;
+      width: 100%;
+  }
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+
+.icon-block {
+  padding: 0 15px;
+}
+
+footer.page-footer {
+  margin: 0;
+}
