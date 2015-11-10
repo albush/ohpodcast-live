@@ -23,7 +23,7 @@
 
         <!--Description and Call to Action-->
 
-          <p>{{ with .Params.summary }}{{ . }}{{ end }}</p>
+          <p>{{ with .Params.summary | markdownify }}{{ . }}{{ end }}</p>
         <!--END OF Description and Call to Action-->
       </div>
 </div>
