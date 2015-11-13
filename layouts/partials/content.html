@@ -18,6 +18,8 @@
         <iframe class="youtube-player" type="text/html" width="560" height="315" {{ with .Params.youtube_id }} src="http://www.youtube.com/embed/{{ . }}"{{ end }} allowfullscreen frameborder="0">
         </iframe>
         </div>
+        {{ else }}
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLXK8KWNgW1Mu1ktSaGncaEK9i0BGS6NQM" frameborder="0" allowfullscreen></iframe>
         {{end}}
       <!-- End YouTube Embed -->
 
